@@ -266,6 +266,10 @@ Loop
     else
     If P250
     {
+    
+    Sleep 40
+    MouseXY(-3,15)
+    
     }
     
     else
