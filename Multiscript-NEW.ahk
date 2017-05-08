@@ -229,23 +229,22 @@ Loop
   
     If AK
     {
-    
-		   Sleep 5
-		   MouseXY(3,5)
-		   Sleep 5
-		   MouseXY(-3,5)
-		   Sleep 5
-		   MouseXY(3,5)
-		   Sleep 5
-	   	   MouseXY(-3,
+    	Sleep 5
+	MouseXY(3,5)
+	Sleep 5
+	MouseXY(-3,5)
+	Sleep 5
+	MouseXY(3,5)
+	Sleep 5
+	MouseXY(-3,
     }
     
     else
     If Semirifle
     {
     
-    Sleep 25
-    MouseXY(-3,10)
+    	Sleep 25
+    	MouseXY(-3,10)
     
     }
     
@@ -267,14 +266,24 @@ Loop
     If P250
     {
     
-    Sleep 40
-    MouseXY(-3,15)
+    	Sleep 40
+    	MouseXY(-3,15)
     
     }
     
     else
     If Thompson
     {
+    
+    	Sleep 5
+	MouseXY(0,2)
+	Sleep 5
+	MouseXY(0,1)
+	Sleep 5
+	MouseXY(0,2)
+	Sleep 5
+	MouseXY(0,1)
+    
     }
     
     else
