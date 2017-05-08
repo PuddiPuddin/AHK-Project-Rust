@@ -207,6 +207,21 @@ Return
 
 Loop
 {
+ If GetKeyState("MButton", "LCtrl")
+ {
+  If semirifle
+  {
+  }
+  If Revolver
+  {
+  }
+ }
+}
+
+Return
+
+Loop
+{
   If GetKeyState("LButton", "LCtrl")
   {
   
