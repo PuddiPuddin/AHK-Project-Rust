@@ -243,8 +243,17 @@ Loop
 {
  If GetKeyState("MButton", "LCtrl")
  {
-  If semirifle
-  {
+ 
+ 	SendInput {LButton DownTemp}
+	MouseXY(-2,8)
+	Sleep 5
+	MouseXY(-2,8)
+	Sleep 5
+	MouseXY(-2,8)
+	Sleep 5
+	SendInput {LButton Up}
+	Sleep 35
+  
   }
   If Revolver
   {
