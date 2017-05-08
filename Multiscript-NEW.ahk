@@ -246,18 +246,15 @@ Loop
 {
  If GetKeyState("MButton", "LCtrl")
  {
- 	If AK
+ 	If Semirifle
 	{
  
- 		SendInput {LButton DownTemp}
-		MouseXY(-2,8)
-		Sleep 5
-		MouseXY(-2,8)
-		Sleep 5
-		MouseXY(-2,8)
-		Sleep 5
-		SendInput {LButton Up}
-		Sleep 35
+                SendInput {LButton DownTemp}
+                Sleep 25
+                MouseXY(-4,16)
+                Sleep 1
+                SendInput {LButton Up}
+                Sleep 1
 		
 	}
 	else
@@ -313,8 +310,8 @@ Loop
     If Semirifle
     {
     
-    	Sleep 25
-    	MouseXY(-3,10)
+    	Sleep 22
+    	MouseXY(-3,11)
     
     }
     
@@ -406,4 +403,3 @@ MouseXY(x,y)
 }
 
 Return
-
