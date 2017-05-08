@@ -203,7 +203,7 @@ Return
 ;
 ;###########################################
 
-~LCtrl &~LButton::
+~LCtrl & ~LButton::
 
 Loop
 {
