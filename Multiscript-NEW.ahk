@@ -237,14 +237,15 @@ Loop
 		   Sleep 5
 		   MouseXY(3,5)
 		   Sleep 5
-	   	MouseXY(-3,
+	   	   MouseXY(-3,
     }
     
     else
     If Semirifle
     {
     
-    
+    Sleep 25
+    MouseXY(-3,10)
     
     }
     
