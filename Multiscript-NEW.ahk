@@ -207,7 +207,7 @@ Return
 
 Loop
 {
-  If GetKeyState("MButton", "LCtrl")
+  If GetKeyState("LButton", "LCtrl")
   {
   
     If AK
