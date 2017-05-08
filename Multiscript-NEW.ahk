@@ -294,6 +294,10 @@ Loop
     else
     If Revolver
     {
+    
+	Sleep 34
+	MouseXY(-2,7)
+    
     }
     
     else
