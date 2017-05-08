@@ -257,6 +257,12 @@ Loop
   }
   If Revolver
   {
+  
+  	SendInput {LButton DownTemp}
+	MouseXY(-3,6)
+	SendInput {LButton Up}
+	Sleep 35
+  
   }
  }
 }
