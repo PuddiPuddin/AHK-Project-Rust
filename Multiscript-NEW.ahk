@@ -308,6 +308,10 @@ Loop
     else
     If M92
     {
+    
+    	Sleep 30
+	mouseXY(-2,7)
+	
     }
   }
   else
