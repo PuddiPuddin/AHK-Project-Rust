@@ -203,7 +203,7 @@ Return
 ;
 ;###########################################
 
-~LCtrl & ~LButton::
+~LCtrl & ~MButton::
 
 Loop
 {
@@ -219,6 +219,8 @@ Loop
 }
 
 Return
+
+~LCtrl & ~LButton::
 
 Loop
 {
