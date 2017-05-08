@@ -87,6 +87,7 @@ Return
 ;Semirifle with Improvised scope
 If GetKeyState("Numpad2", "P")
 {
+  ToolTip, Semirifle Improvised Selected, 1, 1, SplashTextOn
   AK:=false
   Semirifle:=false
   SemirifleImprovisedScope:=true
