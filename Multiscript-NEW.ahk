@@ -81,6 +81,8 @@ If GetKeyState("Numpad2")
   M92:=false
 }
 
+Return
+
 ~P & ~Numpad2::
 ;Semirifle with Improvised scope
 If GetKeyState("Numpad2", "P")
@@ -304,7 +306,7 @@ Loop
 	Sleep 5
 	MouseXY(3,5)
 	Sleep 5
-	MouseXY(-3,
+	MouseXY(-3,5)
     }
     
     else
