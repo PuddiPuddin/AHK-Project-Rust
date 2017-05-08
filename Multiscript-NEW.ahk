@@ -10,6 +10,7 @@ SendMode Input
 ;Recoil Off ->  Numpad 0
 ;AK         ->  Numpad1
 ;Semirifle  ->  Numpad2
+;Semi scope ->  P+Numpad2
 ;LR300      ->  Numpad3
 ;P250       ->  Numpad4
 ;Thompson   ->  Numpad5
@@ -32,6 +33,7 @@ If GetKeyState("Numpad0")
   ToolTip, Recoil off, 1, 1, SplashTextOn
   AK:=false
   Semirifle:=false
+  SemirifleImprovisedScope:=false
   LR300:=false
   P250:=false
   Thompson:=false
@@ -50,6 +52,7 @@ If GetKeyState("Numpad1")
   ToolTip, AK Selected, 1, 1, SplashTextOn
   AK:=true
   Semirifle:=false
+  SemirifleImprovisedScope:=false
   LR300:=false
   P250:=false
   Thompson:=false
@@ -67,6 +70,22 @@ If GetKeyState("Numpad2")
   ToolTip, Semirifle Selected, 1, 1, SplashTextOn
   AK:=false
   Semirifle:=true
+  SemirifleImprovisedScope:=false
+  LR300:=false
+  P250:=false
+  Thompson:=false
+  M249:=false
+  Revolver:=false
+  MP5:=false
+  M92:=false
+}
+
+;Semirifle with Improvised scope
+If GetKeyState("Numpad2", "P")
+{
+  AK:=false
+  Semirifle:=false
+  SemirifleImprovisedScope:=true
   LR300:=false
   P250:=false
   Thompson:=false
@@ -84,6 +103,7 @@ If GetKeyState("Numpad3")
   ToolTip, LR300 Selected, 1, 1, SplashTextOn
   AK:=false
   Semirifle:=false
+  SemirifleImprovisedScope:=false
   LR300:=true
   P250:=false
   Thompson:=false
@@ -101,6 +121,7 @@ If GetKeyState("Numpad4")
   ToolTip, P250 Selected, 1, 1, SplashTextOn
   AK:=false
   Semirifle:=false
+  SemirifleImprovisedScope:=false
   LR300:=false
   P250:=true
   Thompson:=false
@@ -118,6 +139,7 @@ If GetKeyState("Numpad5")
   ToolTip, Thompson Selected, 1, 1, SplashTextOn
   AK:=false
   Semirifle:=false
+  SemirifleImprovisedScope:=false
   LR300:=false
   P250:=false
   Thompson:=true
@@ -135,6 +157,7 @@ If GetKeyState("Numpad6")
   ToolTip, M249 Selected, 1, 1, SplashTextOn
   AK:=false
   Semirifle:=false
+  SemirifleImprovisedScope:=false
   LR300:=false
   P250:=false
   Thompson:=false
@@ -152,6 +175,7 @@ If GetKeyState("Numpad7")
   ToolTip, Revolver Selected, 1, 1, SplashTextOn
   AK:=false
   Semirifle:=false
+  SemirifleImprovisedScope:=false
   LR300:=false
   P250:=false
   Thompson:=false
@@ -169,6 +193,7 @@ If GetKeyState("Numpad8")
   ToolTip, MP5 Selected, 1, 1, SplashTextOn
   AK:=false
   Semirifle:=false
+  SemirifleImprovisedScope:=false
   LR300:=false
   P250:=false
   Thompson:=false
@@ -313,6 +338,16 @@ Loop
 	mouseXY(-2,7)
 	
     }
+    
+    else
+    If SemirifleImprovisedScope
+    {
+    
+    	Sleep 35
+	MouseXY(-2,8)
+    
+    }
+    
   }
   else
   break
