@@ -243,26 +243,45 @@ Loop
 {
  If GetKeyState("MButton", "LCtrl")
  {
+ 	If AK
+	{
  
- 	SendInput {LButton DownTemp}
-	MouseXY(-2,8)
+ 		SendInput {LButton DownTemp}
+		MouseXY(-2,8)
+		Sleep 5
+		MouseXY(-2,8)
+		Sleep 5
+		MouseXY(-2,8)
+		Sleep 5
+		SendInput {LButton Up}
+		Sleep 35
+		
+	}
+	else
+  	If Revolver
+  	{
+  
+  		SendInput {LButton DownTemp}
+		MouseXY(-3,6)
+		SendInput {LButton Up}
+		Sleep 35
+		
+	}
+	else
+	If SemirifleImprovisedScope
+	{
+	
+	SendInput {LButton DownTemp}
+	MouseXY(-2,6)
 	Sleep 5
-	MouseXY(-2,8)
+	MouseXY(-1,7)
 	Sleep 5
-	MouseXY(-2,8)
+	MouseXY(-2,6)
 	Sleep 5
 	SendInput {LButton Up}
 	Sleep 35
-  
-  }
-  If Revolver
-  {
-  
-  	SendInput {LButton DownTemp}
-	MouseXY(-3,6)
-	SendInput {LButton Up}
-	Sleep 35
-  
+	
+	}
   }
  }
 }
