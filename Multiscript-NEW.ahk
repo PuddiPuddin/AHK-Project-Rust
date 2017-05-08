@@ -252,6 +252,15 @@ Loop
     else
     If LR300
     {
+    	Sleep 5
+	MouseXY(-1,3)
+	Sleep 5
+	MouseXY(-2,4)
+	Sleep 5
+	MouseXY(-1,4)
+	Sleep 5
+	MouseXY(-1,3)
+    
     }
     
     else
