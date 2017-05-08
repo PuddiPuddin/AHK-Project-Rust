@@ -212,11 +212,24 @@ Loop
   
     If AK
     {
+    
+     Sleep 1
+     MouseXY(-5, 10)
+     Sleep 23
+     MouseXY(5, 10)
+     Sleep 30
+     MouseXY(-5, 10)
+     Sleep 42
+     MouseXY(5, 10)
+    
     }
     
     else
     If Semirifle
     {
+    
+    
+    
     }
     
     else
