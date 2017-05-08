@@ -271,15 +271,15 @@ Loop
 	If SemirifleImprovisedScope
 	{
 	
-	SendInput {LButton DownTemp}
-	MouseXY(-2,6)
-	Sleep 5
-	MouseXY(-1,7)
-	Sleep 5
-	MouseXY(-2,6)
-	Sleep 5
-	SendInput {LButton Up}
-	Sleep 35
+		SendInput {LButton DownTemp}
+		MouseXY(-2,6)
+		Sleep 5
+		MouseXY(-1,7)
+		Sleep 5
+		MouseXY(-2,6)
+		Sleep 5
+		SendInput {LButton Up}
+		Sleep 35
 	
 	}
   }
