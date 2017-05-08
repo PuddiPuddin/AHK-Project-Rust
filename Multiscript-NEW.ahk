@@ -64,6 +64,7 @@ If GetKeyState("Numpad1")
 
 Return
 
+~Numpad2::
 ;Semirifle
 If GetKeyState("Numpad2")
 {
@@ -80,6 +81,7 @@ If GetKeyState("Numpad2")
   M92:=false
 }
 
+~P & ~Numpad2::
 ;Semirifle with Improvised scope
 If GetKeyState("Numpad2", "P")
 {
@@ -97,6 +99,7 @@ If GetKeyState("Numpad2", "P")
 
 Return
 
+~Numpad3::
 ;LR300
 If GetKeyState("Numpad3")
 {
@@ -115,6 +118,7 @@ If GetKeyState("Numpad3")
 
 Return
 
+~Numpad4::
 ;P250
 If GetKeyState("Numpad4")
 {
@@ -133,6 +137,7 @@ If GetKeyState("Numpad4")
 
 Return
 
+~Numpad5::
 ;Thompson
 If GetKeyState("Numpad5")
 {
@@ -151,6 +156,7 @@ If GetKeyState("Numpad5")
 
 Return
 
+~Numpad6::
 ;M249
 If GetKeyState("Numpad6")
 {
@@ -169,6 +175,7 @@ If GetKeyState("Numpad6")
 
 Return
 
+~Numpad7::
 ;Revolver
 If GetKeyState("Numpad7")
 {
@@ -187,6 +194,7 @@ If GetKeyState("Numpad7")
 
 Return
 
+~Numpad8::
 ;MP5
 If GetKeyState("Numpad8")
 {
@@ -205,6 +213,7 @@ If GetKeyState("Numpad8")
 
 Return
 
+~Numpad9::
 ;M92
 If GetKeyState("Numpad9")
 {
