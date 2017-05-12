@@ -272,11 +272,11 @@ Loop
 	{
 	
 		SendInput {LButton DownTemp}
-		MouseXY(-2,6)
+		MouseXY(-2,5)
 		Sleep 5
-		MouseXY(-1,7)
+		MouseXY(-1,5)
 		Sleep 5
-		MouseXY(-2,6)
+		MouseXY(-1,5)
 		Sleep 5
 		SendInput {LButton Up}
 		Sleep 35
@@ -311,7 +311,7 @@ Loop
     {
     
     	Sleep 22
-    	MouseXY(-3,11)
+    	MouseXY(-3,10)
     
     }
     
@@ -386,7 +386,7 @@ Loop
     {
     
     	Sleep 35
-	MouseXY(-2,8)
+	MouseXY(-2,7)
     
     }
     
