@@ -289,6 +289,14 @@ Loop
    		else
     		If MP5
     		{
+			Sleep 5
+			MouseXY(-1,3)
+			Sleep 5
+			MouseXY(-2,3)
+			Sleep 5
+			MouseXY(-1,3)
+			Sleep 5
+			MouseXY(-1,3)
     		}
     
     		else
