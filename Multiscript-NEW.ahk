@@ -302,8 +302,8 @@ Loop
     		else
     		If M92
     		{
-    			Sleep 30
-			mouseXY(-2,7)
+    			Sleep 40
+    			MouseXY(-3,10)
     		}
     
     		else
@@ -328,12 +328,12 @@ Loop
 		}
 
 		else
-  		If Revolver
-  		{
-  			SendInput {LButton DownTemp}
-			MouseXY(-3,6)
+		If M92
+		{
+			SendInput {LButton DownTemp}
+    			MouseXY(-3,9)
 			SendInput {LButton Up}
-			Sleep 35
+			Sleep 40
 		}
 
 		else
