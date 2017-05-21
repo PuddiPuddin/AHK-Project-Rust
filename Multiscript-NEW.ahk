@@ -228,8 +228,8 @@ Loop
    		else
     		If Semirifle
     		{
-    			Sleep 22
-    			MouseXY(-3,10)
+			Sleep, 35
+			MouseXY(-3,12)
     		}
     
    		else
