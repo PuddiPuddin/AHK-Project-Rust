@@ -28,27 +28,22 @@ SendMode Input
 
 ;Recoil off
 ~Numpad0::
-If GetKeyState("Numpad0")
-{
-  ToolTip, Recoil off, 1, 1, SplashTextOn
-  AK:=false
-  Semirifle:=false
-  SemirifleImprovisedScope:=false
-  LR300:=false
-  P250:=false
-  Thompson:=false
-  M249:=false
-  Revolver:=false
-  MP5:=false
-  M92:=false
-}
+ToolTip, Recoil off, 1, 1, SplashTextOn
+AK:=false
+Semirifle:=false
+SemirifleImprovisedScope:=false
+LR300:=false
+P250:=false
+Thompson:=false
+M249:=false
+Revolver:=false
+MP5:=false
+M92:=false
 
 Return
 
 ;Select AK
 ~Numpad1::
-If GetKeyState("Numpad1")
-{
   ToolTip, AK Selected, 1, 1, SplashTextOn
   AK:=true
   Semirifle:=false
@@ -60,177 +55,149 @@ If GetKeyState("Numpad1")
   Revolver:=false
   MP5:=false
   M92:=false
-}
 
 Return
 
 ~Numpad2::
 ;Semirifle
-If GetKeyState("Numpad2")
-{
-  ToolTip, Semirifle Selected, 1, 1, SplashTextOn
-  AK:=false
-  Semirifle:=true
-  SemirifleImprovisedScope:=false
-  LR300:=false
-  P250:=false
-  Thompson:=false
-  M249:=false
-  Revolver:=false
-  MP5:=false
-  M92:=false
-}
+ToolTip, Semirifle Selected, 1, 1, SplashTextOn
+AK:=false
+Semirifle:=true
+SemirifleImprovisedScope:=false
+LR300:=false
+P250:=false
+Thompson:=false
+M249:=false
+Revolver:=false
+MP5:=false
+M92:=false
 
 Return
 
 ~P & ~Numpad2::
 ;Semirifle with Improvised scope
-If GetKeyState("Numpad2", "P")
-{
-  ToolTip, Semirifle Improvised Selected, 1, 1, SplashTextOn
-  AK:=false
-  Semirifle:=false
-  SemirifleImprovisedScope:=true
-  LR300:=false
-  P250:=false
-  Thompson:=false
-  M249:=false
-  Revolver:=false
-  MP5:=false
-  M92:=false
-}
+ToolTip, Semirifle Improvised Selected, 1, 1, SplashTextOn
+AK:=false
+Semirifle:=false
+SemirifleImprovisedScope:=true
+LR300:=false
+P250:=false
+Thompson:=false
+M249:=false
+Revolver:=false
+MP5:=false
+M92:=false
 
 Return
 
 ~Numpad3::
 ;LR300
-If GetKeyState("Numpad3")
-{
-  ToolTip, LR300 Selected, 1, 1, SplashTextOn
-  AK:=false
-  Semirifle:=false
-  SemirifleImprovisedScope:=false
-  LR300:=true
-  P250:=false
-  Thompson:=false
-  M249:=false
-  Revolver:=false
-  MP5:=false
-  M92:=false
-}
+ToolTip, LR300 Selected, 1, 1, SplashTextOn
+AK:=false
+Semirifle:=false
+SemirifleImprovisedScope:=false
+LR300:=true
+P250:=false
+Thompson:=false
+M249:=false
+Revolver:=false
+MP5:=false
+M92:=false
 
 Return
 
 ~Numpad4::
 ;P250
-If GetKeyState("Numpad4")
-{
-  ToolTip, P250 Selected, 1, 1, SplashTextOn
-  AK:=false
-  Semirifle:=false
-  SemirifleImprovisedScope:=false
-  LR300:=false
-  P250:=true
-  Thompson:=false
-  M249:=false
-  Revolver:=false
-  MP5:=false
-  M92:=false
-}
+ToolTip, P250 Selected, 1, 1, SplashTextOn
+AK:=false
+Semirifle:=false
+SemirifleImprovisedScope:=false
+LR300:=false
+P250:=true
+Thompson:=false
+M249:=false
+Revolver:=false
+MP5:=false
+M92:=false
 
 Return
 
 ~Numpad5::
 ;Thompson
-If GetKeyState("Numpad5")
-{
-  ToolTip, Thompson Selected, 1, 1, SplashTextOn
-  AK:=false
-  Semirifle:=false
-  SemirifleImprovisedScope:=false
-  LR300:=false
-  P250:=false
-  Thompson:=true
-  M249:=false
-  Revolver:=false
-  MP5:=false
-  M92:=false
-}
+ToolTip, Thompson Selected, 1, 1, SplashTextOn
+AK:=false
+Semirifle:=false
+SemirifleImprovisedScope:=false
+LR300:=false
+P250:=false
+Thompson:=true
+M249:=false
+Revolver:=false
+MP5:=false
+M92:=false
 
 Return
 
 ~Numpad6::
 ;M249
-If GetKeyState("Numpad6")
-{
-  ToolTip, M249 Selected, 1, 1, SplashTextOn
-  AK:=false
-  Semirifle:=false
-  SemirifleImprovisedScope:=false
-  LR300:=false
-  P250:=false
-  Thompson:=false
-  M249:=true
-  Revolver:=false
-  MP5:=false
-  M92:=false
-}
+ToolTip, M249 Selected, 1, 1, SplashTextOn
+AK:=false
+Semirifle:=false
+SemirifleImprovisedScope:=false
+LR300:=false
+P250:=false
+Thompson:=false
+M249:=true
+Revolver:=false
+MP5:=false
+M92:=false
 
 Return
 
 ~Numpad7::
 ;Revolver
-If GetKeyState("Numpad7")
-{
-  ToolTip, Revolver Selected, 1, 1, SplashTextOn
-  AK:=false
-  Semirifle:=false
-  SemirifleImprovisedScope:=false
-  LR300:=false
-  P250:=false
-  Thompson:=false
-  M249:=false
-  Revolver:=true
-  MP5:=false
-  M92:=false
-}
+ToolTip, Revolver Selected, 1, 1, SplashTextOn
+AK:=false
+Semirifle:=false
+SemirifleImprovisedScope:=false
+LR300:=false
+P250:=false
+Thompson:=false
+M249:=false
+Revolver:=true
+MP5:=false
+M92:=false
 
 Return
 
 ~Numpad8::
 ;MP5
-If GetKeyState("Numpad8")
-{
-  ToolTip, MP5 Selected, 1, 1, SplashTextOn
-  AK:=false
-  Semirifle:=false
-  SemirifleImprovisedScope:=false
-  LR300:=false
-  P250:=false
-  Thompson:=false
-  M249:=false
-  Revolver:=false
-  MP5:=true
-  M92:=false
-}
+ToolTip, MP5 Selected, 1, 1, SplashTextOn
+AK:=false
+Semirifle:=false
+SemirifleImprovisedScope:=false
+LR300:=false
+P250:=false
+Thompson:=false
+M249:=false
+Revolver:=false
+MP5:=true
+M92:=false
 
 Return
 
 ~Numpad9::
 ;M92
-If GetKeyState("Numpad9")
-{
-  ToolTip, M92 Selected, 1, 1, SplashTextOn
-  AK:=false
-  Semirifle:=false
-  LR300:=false
-  P250:=false
-  Thompson:=false
-  M249:=false
-  Revolver:=false
-  MP5:=false
-  M92:=true
-}
+ToolTip, M92 Selected, 1, 1, SplashTextOn
+AK:=false
+Semirifle:=false
+LR300:=false
+P250:=false
+Thompson:=false
+M249:=false
+Revolver:=false
+MP5:=false
+M92:=true
 
 Return
 
