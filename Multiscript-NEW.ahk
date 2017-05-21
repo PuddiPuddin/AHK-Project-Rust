@@ -269,6 +269,14 @@ Loop
     		else
     		If M249
     		{
+			Sleep 5
+			MouseXY(0,4)
+			Sleep 5
+			MouseXY(0,5)
+			Sleep 5
+			MouseXY(0,5)
+			Sleep 5
+			MouseXY(0,5)
     		}
     
     		else
